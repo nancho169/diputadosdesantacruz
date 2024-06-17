@@ -11,6 +11,7 @@ Route::get('/',[InicioController::class,'index'])->name('inicio');
 
 //++++FIRMANTES
 Route::get('firmantes',[InicioController::class,'firmantes'])->name('firmantes'); 
+Route::get('ficha',[InicioController::class,'ficha'])->name('ficha'); 
 
 
 //++++PROYECTOS

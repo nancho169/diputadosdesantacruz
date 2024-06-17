@@ -10,7 +10,9 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
+    <link href="{{ asset('jquery-confirm-v3.3.4/css/jquery-confirm.css') }}"  />
+    <link rel="stylesheet" href="{{ asset('fancybox/fancybox.css')}}" />
+    <link href="{{ asset('fontawesome/css/all.css') }}"/>
     <!-- Styles -->
 
 
@@ -289,12 +291,18 @@
     </script>
 
 
-
+    <script src="{{ asset('fancybox/fancybox.js') }}"></script>
     <!-- DataTables JS -->
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.5/js/jquery.dataTables.min.js">
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="{{ asset('jquery-confirm-v3.3.4/js/jquery-confirm.js') }}"></script>
+    <script src="{{ asset('fontawesome/js/all.js') }}"></script>
+    <!--<script src="{{asset('/jquery.alerts.min.js')}}"></script>-->
+   
+
+@stack('js')
 </body>
 
 </html>
