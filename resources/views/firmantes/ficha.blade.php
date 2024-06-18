@@ -1,6 +1,7 @@
 @extends('welcome')
 
 @section('content')
+<div class="b-example-divider"></div>
 <div class="my-3 p-3 bg-body rounded shadow-sm">
     
     

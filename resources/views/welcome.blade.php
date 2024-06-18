@@ -49,7 +49,33 @@
             -webkit-user-select: none;
             -moz-user-select: none;
             user-select: none;
-            background-image: url('http://localhost:8000/img/frente.jpg');
+            background-image: url("{{ asset('img/frente.jpg') }}");
+            /*background-repeat: no-repeat;*/
+            background-size: auto;
+           
+        }
+        .bd-placeholder-img-head-1 {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+            background-image: url("{{ asset('img/camara1.jpg') }}");
+            /*background-repeat: no-repeat;*/
+            background-size: auto;
+           
+        }
+
+        .bd-placeholder-img-head-2 {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+            background-image: url("{{ asset('img/camara2.webp') }}");
+            /*background-repeat: no-repeat;*/
+            background-size: auto;
+           
         }
 
         .bd-placeholder-img {

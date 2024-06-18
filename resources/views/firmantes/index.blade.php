@@ -1,7 +1,7 @@
 @extends('welcome')
 
 @section('content')
-
+<div class="b-example-divider"></div>
 
     <h1>Firmantes</h1>
     <p class="d-flex justify-content-end">

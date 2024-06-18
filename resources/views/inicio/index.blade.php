@@ -10,10 +10,11 @@
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-        <div class="carousel-item active">
-            <svg class="bd-placeholder-img-head" width="100%" height="100%"
+        <div class="carousel-item active" >
+            <svg class="bd-placeholder-img-head"  width="100%" height="100%"
                 xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
                 focusable="false">
+                
                 <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
             </svg>
             <div class="container">
@@ -26,7 +27,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <svg class="bd-placeholder-img-head" width="100%" height="100%"
+            <svg class="bd-placeholder-img-head-1" width="100%" height="100%"
                 xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
                 focusable="false">
                 <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
@@ -40,7 +41,7 @@
             </div>
         </div>
         <div class="carousel-item">
-            <svg class="bd-placeholder-img-head" width="100%" height="100%"
+            <svg class="bd-placeholder-img-head-2" width="100%" height="100%"
                 xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
                 focusable="false">
                 <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
