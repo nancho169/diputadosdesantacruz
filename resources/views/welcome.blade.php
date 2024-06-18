@@ -19,6 +19,10 @@
 
     <link rel="stylesheet" href="{{ asset('fancybox/fancybox.css')}}" />
     <link href="{{ asset('fontawesome/css/all.css') }}"/>
+
+    <!-- AOS animacion-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Styles -->
 
 
@@ -352,7 +356,11 @@
     <!-- fontawesome -->
     <script src="{{ asset('fontawesome/js/all.js') }}"></script>
     
-    
+    <!-- AOS animacion-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 @stack('js')
 </body>

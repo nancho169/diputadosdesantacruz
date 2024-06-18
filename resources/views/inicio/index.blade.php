@@ -19,7 +19,7 @@
                 
                 <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
             </svg>
-            <div class="container">
+            <div class="container" >
                 <div class="carousel-caption text-start">
                     <h1>Visítanos</h1>
                     <p class="opacity-75">Te invitamos a conocer más sobre la Honorable Cámara de Diputados de Río Gallegos y a descubrir cómo trabajamos día a día para construir una provincia más justa, inclusiva y democrática.</p>
@@ -73,7 +73,7 @@
 <!-- fin carousel -->
 
 
-<div class="alert alert-dark" role="alert" style="text-align: center; width: 90%; margin: 0 auto;">
+<div class="alert alert-dark" role="alert" style="text-align: center; width: 90%; margin: 0 auto;" data-aos="fade-up">
     <h3 >
         Descubre la Honorable Cámara de Diputados de Río Gallegos
         <hr>
@@ -94,13 +94,13 @@
 
     <!-- COLUMNAS -->
     <br>
-    <h4 style="text-align: center;" class="display-4">ACTIVIDAD PARLAMENTARIA</h4>
+    <h4 style="text-align: center;" class="display-4" data-aos="fade-right">ACTIVIDAD PARLAMENTARIA</h4>
     <br>
     <div class="row" >
        
         <div class="col-lg-3" >
             
-            <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;">
+            <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
                 <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140"
                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -117,7 +117,7 @@
 
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3" >
-          <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;">
+          <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
               <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140"
                   xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
                   preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -134,7 +134,7 @@
 
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-3" >
-        <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;">
+        <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
             <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140"
                 xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
                 preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -151,7 +151,7 @@
 
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-3" >
-        <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;">
+        <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
             <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140"
                 xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
                 preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -183,7 +183,7 @@
             <p class="lead">Some great placeholder content for the first featurette here. Imagine some
                 exciting prose here.</p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5" data-aos="zoom-in-down">
             <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
                 width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img"
                 aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -203,7 +203,7 @@
             <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea
                 of how this layout would work with some actual real-world content in place.</p>
         </div>
-        <div class="col-md-5 order-md-1">
+        <div class="col-md-5 order-md-1" data-aos="zoom-in-down">
             <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
                 width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img"
                 aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -224,7 +224,7 @@
                 really intended to be actually read, simply here to give you a better view of what this would
                 look like with some actual content. Your content.</p>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5" data-aos="zoom-in-down">
             <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
                 width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img"
                 aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
