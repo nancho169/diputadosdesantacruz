@@ -20,7 +20,7 @@
                 <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
             </svg>
             <div class="container" >
-                <div class="carousel-caption text-start">
+                <div class="carousel-caption text-start" >
                     <h1>Visítanos</h1>
                     <p class="opacity-75">Te invitamos a conocer más sobre la Honorable Cámara de Diputados de Río Gallegos y a descubrir cómo trabajamos día a día para construir una provincia más justa, inclusiva y democrática.</p>
                     <p><a class="btn btn-lg btn-light" href="#">Sobre Nosotros</a></p>
