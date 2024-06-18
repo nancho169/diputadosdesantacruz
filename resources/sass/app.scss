@@ -1,0 +1,14 @@
+// Import Bootstrap variables and functions
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+
+// Your custom variables (optional)
+$body-bg: #f8f9fa;
+
+// Import Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Your custom styles (optional)
+body {
+    background-color: $body-bg;
+}

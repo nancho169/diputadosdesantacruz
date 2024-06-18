@@ -2,6 +2,8 @@
 
 @section('content')
 
+
+<!-- carousel -->
 <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
@@ -19,10 +21,9 @@
             </svg>
             <div class="container">
                 <div class="carousel-caption text-start">
-                    <h1>Example headline.</h1>
-                    <p class="opacity-75">Some representative placeholder content for the first slide of the
-                        carousel.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                    <h1>Visítanos</h1>
+                    <p class="opacity-75">Te invitamos a conocer más sobre la Honorable Cámara de Diputados de Río Gallegos y a descubrir cómo trabajamos día a día para construir una provincia más justa, inclusiva y democrática.</p>
+                    <p><a class="btn btn-lg btn-light" href="#">Sobre Nosotros</a></p>
                 </div>
             </div>
         </div>
@@ -34,9 +35,12 @@
             </svg>
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>Another example headline.</h1>
-                    <p>Some representative placeholder content for the second slide of the carousel.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    
+                        <h1>Visítanos</h1>
+                        <p class="opacity-75">Te invitamos a conocer más sobre la Honorable Cámara de Diputados de Río Gallegos y a descubrir cómo trabajamos día a día para construir una provincia más justa, inclusiva y democrática.</p>
+                        <p><a class="btn btn-lg btn-light" href="#">Sobre Nosotros</a></p>
+                  
+
                 </div>
             </div>
         </div>
@@ -48,9 +52,11 @@
             </svg>
             <div class="container">
                 <div class="carousel-caption text-end">
-                    <h1>One more for good measure.</h1>
-                    <p>Some representative placeholder content for the third slide of this carousel.</p>
-                    <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                    
+                        <h1>Visítanos</h1>
+                        <p class="opacity-75">Te invitamos a conocer más sobre la Honorable Cámara de Diputados de Río Gallegos y a descubrir cómo trabajamos día a día para construir una provincia más justa, inclusiva y democrática.</p>
+                        <p><a class="btn btn-lg btn-light" href="#">Sobre Nosotros</a></p>
+                  
                 </div>
             </div>
         </div>
@@ -64,7 +70,21 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
+<!-- fin carousel -->
 
+
+<div class="alert alert-dark" role="alert" style="text-align: center; width: 90%; margin: 0 auto;">
+    <h3 >
+        Descubre la Honorable Cámara de Diputados de Río Gallegos
+        <hr>
+    </h3>
+    <p class="fst-italic" >
+        Bienvenido a la Honorable Cámara de Diputados de Río Gallegos, el órgano legislativo fundamental de la provincia de Santa Cruz, donde se forjan las leyes y se fortalece la democracia. Con una rica historia y un profundo compromiso con nuestra comunidad, la Cámara de Diputados no solo es un símbolo de la voluntad popular, sino también un espacio dinámico de debate y construcción de un futuro mejor para todos los santacruceños.
+    </p>
+    <button type="button" class="btn btn-light" id="speak-button"><i class="fa fa-volume-up" aria-hidden="true"></i>REPRODUCIR</button>
+  </div>
+<br>
+<br>
 
 
 <div class="b-example-divider"></div>
@@ -72,10 +92,15 @@
 
 <div class="container marketing"  >
 
-    <!-- Three columns of text below the carousel -->
+    <!-- COLUMNAS -->
+    <br>
+    <h4 style="text-align: center;" class="display-4">ACTIVIDAD PARLAMENTARIA</h4>
+    <br>
     <div class="row" >
+       
         <div class="col-lg-3" >
-            <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;">
+            
+            <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;">
                 <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140"
                     xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
                     preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -84,16 +109,15 @@
                 </svg>-->
                 <img src="{{ asset('img/logo.png') }}" class="card-img-top" alt="...">
                 <div class="card-body">
-                    <h2 class="fw-normal">Diputados</h2>
-                    <p>Some representative placeholder content for the three columns of text below the carousel.
-                        This is the first column.</p>
-                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                    <h2 class="fw-normal">DIPUTADOS</h2>
+                    <p>Con diputados y diputadas elegidos por voto directo, nuestra Cámara es el reflejo de la diversidad y pluralidad de nuestra provincia. Cada uno de ellos trae consigo las aspiraciones y desafíos de sus respectivas regiones, contribuyendo a una representación auténtica y efectiva de todos los sectores de la sociedad santacruceña.</p>
+                    <p><a class="btn btn-secondary" href="#">VER &raquo;</a></p>
                 </div>
             </div>
 
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3" >
-          <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;">
+          <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;">
               <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140"
                   xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
                   preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -102,16 +126,15 @@
               </svg>-->
               <img src="{{ asset('img/logo.png') }}" class="card-img-top" alt="...">
               <div class="card-body">
-                  <h2 class="fw-normal">Proyectos</h2>
-                  <p>Some representative placeholder content for the three columns of text below the carousel.
-                      This is the first column.</p>
-                  <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                  <h2 class="fw-normal">PROYECTOS</h2>
+                  <p>La misión de la Honorable Cámara de Diputados de Río Gallegos es representar al pueblo de Santa Cruz en la elaboración, discusión y sanción de leyes justas y equitativas que promuevan el bienestar común y fortalezcan la democracia. Trabajamos incansablemente para asegurar que cada voz sea escuchada y cada necesidad sea atendida.</p>
+                  <p><a class="btn btn-secondary" href="#">VER &raquo;</a></p>
               </div>
           </div>
 
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-3" >
-        <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;">
+        <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;">
             <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140"
                 xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
                 preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -120,16 +143,15 @@
             </svg>-->
             <img src="{{ asset('img/logo.png') }}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h2 class="fw-normal">Cámara</h2>
-                <p>Some representative placeholder content for the three columns of text below the carousel.
-                    This is the first column.</p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <h2 class="fw-normal">CÁMARA</h2>
+                <p>Con diputados y diputadas elegidos por voto directo, nuestra Cámara es el reflejo de la diversidad y pluralidad de nuestra provincia. Cada uno de ellos trae consigo las aspiraciones y desafíos de sus respectivas regiones, contribuyendo a una representación auténtica y efectiva de todos los sectores de la sociedad santacruceña.</p>
+                <p><a class="btn btn-secondary" href="#">VER &raquo;</a></p>
             </div>
         </div>
 
     </div><!-- /.col-lg-4 -->
     <div class="col-lg-3" >
-        <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 18rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;">
+        <div class="card shadow-lg p-3 mb-5 bg-body-tertiary rounded" style="width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;">
             <!--<svg class="bd-placeholder-img rounded-circle" width="140" height="140"
                 xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
                 preserveAspectRatio="xMidYMid slice" focusable="false">
@@ -138,10 +160,9 @@
             </svg>-->
             <img src="{{ asset('img/logo.png') }}" class="card-img-top" alt="...">
             <div class="card-body">
-                <h2 class="fw-normal">Sesiones</h2>
-                <p>Some representative placeholder content for the three columns of text below the carousel.
-                    This is the first column.</p>
-                <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                <h2 class="fw-normal">SESIONES</h2>
+                <p>En la Honorable Cámara de Diputados de Río Gallegos, la transparencia y la rendición de cuentas son pilares fundamentales. Promovemos una gestión abierta y accesible, donde los ciudadanos puedan seguir de cerca el trabajo legislativo, participar activamente y ejercer su derecho a la información.</p>
+                <p><a class="btn btn-secondary" href="#">VER &raquo;</a></p>
             </div>
         </div>
 
@@ -222,7 +243,35 @@
 
 
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+    // Verificar si el navegador soporta la síntesis de voz
+    if ('speechSynthesis' in window) {
+        // Agregar evento al botón para iniciar la síntesis de voz
+        document.getElementById('speak-button').addEventListener('click', function () {
+            // Crear una instancia de SpeechSynthesisUtterance
+            var to_speak = new SpeechSynthesisUtterance();
 
+            // Establecer el texto a ser hablado
+            to_speak.text = "Bienvenido a la Honorable Cámara de Diputados de Río Gallegos, el órgano legislativo fundamental de la provincia de Santa Cruz, donde se forjan las leyes y se fortalece la democracia. Con una rica historia y un profundo compromiso con nuestra comunidad, la Cámara de Diputados no solo es un símbolo de la voluntad popular, sino también un espacio dinámico de debate y construcción de un futuro mejor para todos los santacruceños.";
+
+            // Configurar propiedades adicionales
+            to_speak.lang = "es-AR"; // Establece el idioma a español (puedes ajustar según sea necesario)
+            to_speak.rate = 0.9; // Velocidad de habla (1 es el valor por defecto)
+          
+            to_speak.pitch = 1; // Tono de voz (1 es el valor por defecto)
+
+            // Reproducir el texto usando la síntesis de voz
+            window.speechSynthesis.speak(to_speak);
+        });
+    } else {
+        // Manejar el caso donde la síntesis de voz no está soportada
+        console.log('La API de síntesis de voz no es soportada en este navegador.');
+        alert('La API de síntesis de voz no es soportada en este navegador.');
+    }
+});
+
+</script>
 
 
 @endsection
