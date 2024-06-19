@@ -11,20 +11,20 @@ git clone https://github.com/nancho169/diputadosdesantacruz
 # 2. Navega al directorio del repositorio clonado
 cd diputadosdesantacruz
 
-#Instala dependecia de node
+# 3. Instala dependecia de node
 npm install
 
-#soluciona error autoload.php Failed to open stream:
+# 4. Soluciona error autoload.php Failed to open stream:
 composer install
 
-#Carga las bases
+# 5. Carga las bases
 php artisan migrate
 
-#y a volar
+# 6. y a volar
 php artisan serve
 
 
-//SOLO DE SER NECESARIO
+## Solo de ser necesario
 # Genera una nueva clave de aplicación
 php artisan key:generate
 
@@ -34,5 +34,5 @@ php artisan key:generate
 # Instala las dependencias de JavaScript y compila los assets
 npm install
 npm run dev  # o npm run production
-## Laravel Sponsors
+
 
