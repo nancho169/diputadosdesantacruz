@@ -1,8 +1,15 @@
 ## Acerca del proyecto
 
-AGREGAR INFO
 
-
+## Librerias 
+1 - Bootstrp & Popper
+2 - Data table
+3 - AOS
+4 - Fontawesome
+5 - Carousel
+6 - Jquery
+7 - Fancybox
+8 - Jquery confirm
 ## Consideraciones
 
 # 1. Clona el repositorio
