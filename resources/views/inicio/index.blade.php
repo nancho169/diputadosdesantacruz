@@ -1,17 +1,7 @@
 @extends('welcome')
 
 @section('content')
-<div class="toast" role="alert" aria-live="assertive" aria-atomic="true" id="myToast">
-    <div class="toast-header">
-      <img src="..." class="rounded me-2" alt="...">
-      <strong class="me-auto">Bootstrap</strong>
-      <small>11 mins ago</small>
-      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-    </div>
-    <div class="toast-body">
-      Hello, world! This is a toast message.
-    </div>
-  </div>
+
 
 <!-- carousel -->
 <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
@@ -137,7 +127,7 @@
               <img src="{{ asset('img/logo.png') }}" class="card-img-top" alt="...">
               <div class="card-body">
                   <h2 class="fw-normal">PROYECTOS</h2>
-                  <p>La misión de la Honorable Cámara de Diputados de Río Gallegos es representar al pueblo de Santa Cruz en la elaboración, discusión y sanción de leyes justas y equitativas que promuevan el bienestar común y fortalezcan la democracia. Trabajamos incansablemente para asegurar que cada voz sea escuchada y cada necesidad sea atendida.</p>
+                  <p>La misión de la Honorable Cámara de Diputados de Río Gallegos es representar al pueblo de Santa Cruz en la elaboración, discusión y sanción de leyes justas y equitativas que promuevan el bienestar común y fortalezcan la democracia. Trabajamos incansablemente para asegurar que cada voz sea escuchada .</p>
                   <p><a class="btn btn-secondary" href="#">VER &raquo;</a></p>
               </div>
           </div>
@@ -171,7 +161,7 @@
             <img src="{{ asset('img/logo.png') }}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h2 class="fw-normal">SESIONES</h2>
-                <p>En la Honorable Cámara de Diputados de Río Gallegos, la transparencia y la rendición de cuentas son pilares fundamentales. Promovemos una gestión abierta y accesible, donde los ciudadanos puedan seguir de cerca el trabajo legislativo, participar activamente y ejercer su derecho a la información.</p>
+                <p>En la Honorable Cámara de Diputados de Río Gallegos, la transparencia y la rendición de cuentas son pilares fundamentales. Promovemos una gestión abierta y accesible, donde los ciudadanos puedan seguir de cerca el trabajo legislativo, participar activamente y ejercer su derecho a la información con marca nuestra constitución .</p>
                 <p><a class="btn btn-secondary" href="#">VER &raquo;</a></p>
             </div>
         </div>
@@ -285,10 +275,7 @@
     }
 });
 
-const myToastEl = document.getElementById('myToast')
-myToastEl.addEventListener('show.bs.toast', () => {
-  // do something...
-})
+
 
 </script>
 
