@@ -1,7 +1,17 @@
 @extends('welcome')
 
 @section('content')
-
+<div class="toast" role="alert" aria-live="assertive" aria-atomic="true" id="myToast">
+    <div class="toast-header">
+      <img src="..." class="rounded me-2" alt="...">
+      <strong class="me-auto">Bootstrap</strong>
+      <small>11 mins ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hello, world! This is a toast message.
+    </div>
+  </div>
 
 <!-- carousel -->
 <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
@@ -177,11 +187,16 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">First featurette heading. <span
-                    class="text-body-secondary">It’ll blow your mind.</span></h2>
-            <p class="lead">Some great placeholder content for the first featurette here. Imagine some
-                exciting prose here.</p>
+        <div class="col-md-7" data-aos="fade-up"  data-aos-duration="3000">
+           
+            <h2 class="featurette-heading fw-normal lh-1">Información <span
+                    class="text-body-secondary"> Parlamentaria .</span></h2>
+            <p class="lead">
+                Es la clave para entender las actividades y decisiones del parlamento, ofreciendo transparencia y acceso a documentos, debates y leyes. ¡Mantente informado y participa activamente en la democracia! 
+
+            </p>
+            <hr>
+            <span class="badge bg-warning ">#InformaciónParlamentaria</span><span class="badge bg-info "> #Transparencia</span>
         </div>
         <div class="col-md-5" data-aos="zoom-in-down">
             <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
@@ -197,11 +212,10 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
-        <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">Oh yeah, it’s that good. <span
-                    class="text-body-secondary">See for yourself.</span></h2>
-            <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea
-                of how this layout would work with some actual real-world content in place.</p>
+        <div class="col-md-7 order-md-2"  data-aos="fade-up"  data-aos-duration="3000">
+            <h2 class="featurette-heading fw-normal lh-1">Agenda <span
+                    class="text-body-secondary">Parlamentaria</span></h2>
+            <p class="lead">Es el plan estratégico que define las prioridades legislativas del parlamento, organizando debates, leyes y decisiones clave para impulsar el desarrollo y bienestar de nuestra sociedad. ¡Participa y sé parte del cambio! </p><hr><span class="badge bg-dark ">#AgendaParlamentaria</span> <span class="badge bg-success">#DemocraciaEnAcción</span>
         </div>
         <div class="col-md-5 order-md-1" data-aos="zoom-in-down">
             <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
@@ -217,12 +231,12 @@
     <hr class="featurette-divider">
 
     <div class="row featurette">
-        <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">And lastly, this one. <span
-                    class="text-body-secondary">Checkmate.</span></h2>
-            <p class="lead">And yes, this is the last block of representative placeholder content. Again, not
-                really intended to be actually read, simply here to give you a better view of what this would
-                look like with some actual content. Your content.</p>
+        <div class="col-md-7"  data-aos="fade-up"  data-aos-duration="3000">
+            <h2 class="featurette-heading fw-normal lh-1">Ordenes. <span
+                    class="text-body-secondary">del  día.</span></h2>
+            <p class="lead">Es el programa detallado de los temas y asuntos que se discutirán en cada sesión del parlamento, asegurando una organización efectiva y participación activa. ¡Sigue el ritmo de la democracia!</p>
+            <hr>
+            <span class="badge bg-primary ">#ÓrdenesDelDía</span><span class="badge bg-secondary  "> #ParticipaciónCiudadana</span>
         </div>
         <div class="col-md-5" data-aos="zoom-in-down">
             <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
@@ -270,6 +284,11 @@
         alert('La API de síntesis de voz no es soportada en este navegador.');
     }
 });
+
+const myToastEl = document.getElementById('myToast')
+myToastEl.addEventListener('show.bs.toast', () => {
+  // do something...
+})
 
 </script>
 
