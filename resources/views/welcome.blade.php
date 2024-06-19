@@ -17,6 +17,7 @@
     <link href="{{asset('css/datatables.min.css')}}" rel="stylesheet">
     <link href="{{asset('css/dataTables.dataTables.css')}}" rel="stylesheet">
     <link href="{{asset('css/buttons.dataTables.css')}}" rel="stylesheet">
+    <link href="https://cdn.datatables.net/searchbuilder/1.7.1/css/searchBuilder.dataTables.css" rel="stylesheet"
 
     <link rel="stylesheet" href="{{ asset('fancybox/fancybox.css')}}" />
     <link href="{{ asset('fontawesome/css/all.css') }}"/>
@@ -411,12 +412,13 @@
     <script src="{{asset('js/buttons.colVis.js')}}"></script>
     <script src="{{asset('js/buttons.html5.js')}}"></script>
     <script src="{{asset('js/buttons.print.js')}}"></script>
-
+    <script src="https://cdn.datatables.net/searchbuilder/1.7.1/js/dataTables.searchBuilder.js"></script>
     <!-- fontawesome -->
     <script src="{{ asset('fontawesome/js/all.js') }}"></script>
     
     <!-- AOS animacion-->
     <script src="{{asset('js/aos.js')}}"></script>
+    
     <script>
       AOS.init();
     </script>
