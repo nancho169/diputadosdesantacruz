@@ -73,7 +73,7 @@
 <!-- fin carousel -->
 
 
-<div class="toast fade show position-fixed bottom-0 start-0 p-3" role="alert" aria-live="assertive" aria-atomic="true">
+<div style="z-index: 5;" class="toast fade show position-fixed bottom-0 start-0 p-3" role="alert" aria-live="assertive" aria-atomic="true">
     <div class="toast-header">
         <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Cerca"></button>
         <svg class="bd-placeholder-img rounded me-2" width="15" height="15" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
