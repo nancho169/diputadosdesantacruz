@@ -20,6 +20,7 @@ Route::get('proyectos',[InicioController::class,'proyectos'])->name('proyectos')
 
 
 //RUTAS ACCESO
+Route::get('/acceso/perfil/{id}',[AccesoController::class,'perfil'])->name('perfil');
 Route::get('/acceso/login',[AccesoController::class,'acceso_login'])->name('acceso_login');
 Route::get('/acceso/loginout',[AccesoController::class,'logout'])->name('logout');
 Route::POST('/acceso/login',[AccesoController::class,'acceso_login_post'])->name('acceso_login_post');

@@ -10,5 +10,5 @@ class Perfil extends Model
     use HasFactory;
     protected $guarded = [];
     public $timestamps = false;
-    protected $table = 'perfil';
+    protected $table = 'Perfil';
 }

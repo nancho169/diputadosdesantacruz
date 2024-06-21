@@ -12,6 +12,13 @@ use App\Models\UserMetadata;
 class AccesoController extends Controller
 {
         //
+        public function perfil($id){
+            
+            $usuario = User::where(['id'=>$id])->firstOrFail();
+            $usuario_data = UserMetadata::where(['users_id'=>$id])->firstOrFail();
+            //$usuario = UserMetadata::where(['users_id'=>Auth::id()])->first();
+            return view('acceso.perfil',compact('usuario','usuario_data'));
+        }
         public function acceso_login(){
             return view('acceso.login');
         }
