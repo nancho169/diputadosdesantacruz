@@ -23,7 +23,7 @@
                 </div>
                 <hr>
                 {{csrf_field()}}
-                <input type="submit" value="Enviar" class="btn btn-primary">
+                <input type="submit" value="Ingresar" class="btn btn-primary">
                 <a type="button" href="{{route('acceso_registro')}}"  class="btn btn-secondary">Registrarse</a>
              </form>
             </div>
