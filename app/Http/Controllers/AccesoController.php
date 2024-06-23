@@ -63,7 +63,7 @@ class AccesoController extends Controller
     
             $request->validate(
                 [
-                    'nombre'=>'required|min:6',
+                    'nombre'=>'required|min:5',
                     'correo'=>'required|email:rfc,dns|unique:users,email',
                     'telefono'=>'required',
                     'direccion'=>'required',
@@ -71,7 +71,7 @@ class AccesoController extends Controller
             ],
                 [
                     'nombre.required'=>'El campo Nombre está vacío',
-                    'nombre.min'=>'El campo Nombre está vacío',
+                    'nombre.min'=>'El campo Nombre debe terner mínimo 5 caracteres',
                     'correo.required'=>'El campo E-Mail está vacío',
                     'correo.email'=>'El E-Mail ingresado no es válido',
                     'telefono.required'=>'El campo Teléfono está vacío',

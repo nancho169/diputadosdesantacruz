@@ -7,7 +7,7 @@
         <div class="row g-0">
 
 
-          <div class="card" style="width: 18rem; margin: 0 auto;">
+          <div class="card" style="width:   30rem; margin: 0 auto;">
             <img src="{{ asset('img/logo.png')}}"  class="card-img-top">
             <div class="card-body">
               <h5 class="card-title" style="text-align: center;">Ingreso</h5>

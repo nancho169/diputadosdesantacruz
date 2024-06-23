@@ -1,15 +1,86 @@
 @extends('welcome')
 
 @section('content')
+<style>
+  
+    .hemiciclo {
+        position: relative;
+        width: 100%;
+        max-width: 800px;
+        height: 500px; /* Altura ajustada para semicírculo */
+        overflow: hidden;
+        margin: 0 auto;
+        
+       
+    }
+    .silla {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background: #a8d5ffc7;
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.521);
+        margin-top: -20%;
+    }
+    .silla_par1 {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background: #044a8bd7;
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.521);
+        margin-top: -20%;
+    }
+    .silla_par2 {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background: #b13b2bdc;
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.521);
+        margin-top: -20%;
+    }
+    .silla_par3 {
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        background: #1f791fe0;
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.521);
+        margin-top: -20%;
+    }
+    @media (max-width: 600px) {
+        .silla {
+            width: 40px;
+            height: 40px;
+        }
+        .silla_par1 {
+            width: 40px;
+            height: 40px;
+        }
+        .silla_par2 {
+            width: 40px;
+            height: 40px;
+        }
+        .silla_par3 {
+            width: 40px;
+            height: 40px;
+        }
+    }
+</style>
 <div class="b-example-divider">
     
 </div>
 
     <h1>Firmantes</h1>
     <hr>
-
- 
-        <div class="container-lg">
+    <div class="card bg-body-secondary" style="width: 70%; margin:0 auto; ">
+        <div class="hemiciclo">
+            <!-- Las sillas se generarán aquí -->
+        </div>
+        <hr>
+    </div>
+        <div class="container-lg " >
             <div class="">
                 <table class="table table-bordered table-striped table-hover" id="tabla_firmantes" style="width: 90%;">
                     <thead>
@@ -94,9 +165,48 @@
      
 
  </div>
-    <div id="resultado">
-    </div>
+  
+  
+    <script>
 
+function hemiciclo(puestos,radio,estilo){
+        const hemiciclo = document.querySelector('.hemiciclo');
+        const totalSillas = puestos;
+        const radius = radio; // Radio del semicírculo en px (ajustar según el tamaño del contenedor)
+
+        for (let i = 0; i < totalSillas; i++) {
+            const angle = Math.PI * i / (totalSillas - 1); // Ángulo en radianes
+            const x = 50 + (radius * Math.cos(angle)) / hemiciclo.offsetWidth * 100;
+            const y = 100 - (radius * Math.sin(angle)) / hemiciclo.offsetHeight * 100;
+
+            const silla = document.createElement('div');
+            silla.classList.add(estilo);
+          
+            silla.style.left = `${x}%`;
+            silla.style.top = `${y}%`;
+
+            hemiciclo.appendChild(silla);
+        }
+      }
+      hemiciclo(5,0,'silla');
+      hemiciclo(5,100,"silla_par1");
+      hemiciclo(8,170,'silla_par2');
+      hemiciclo(12,250,'silla_par3');
+
+      $('.silla').on('click',function (){
+        alert("silla");
+        
+      });
+      $('.silla_par1').on('click',function (){
+        alert("silla_par1");
+      });
+      $('.silla_par2').on('click',function (){
+        alert("silla_par2");
+      });
+      $('.silla_par3').on('click',function (){
+        alert("silla_par3");
+      });
+    </script>
     <script>
         $(document).ready( function () {
             
