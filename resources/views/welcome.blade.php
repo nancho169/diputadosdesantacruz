@@ -59,8 +59,10 @@
             user-select: none;
             background-image: url("{{ asset('img/frente.png') }}");
             /*background-repeat: no-repeat;*/
-            background-size: 100%;
+            background-repeat: no-repeat;
             font-family: 'Montserrat';
+            background-position: center;
+            background-size: cover;
            
         }
         .bd-placeholder-img-head-1 {
@@ -69,10 +71,11 @@
             -webkit-user-select: none;
             -moz-user-select: none;
             user-select: none;
-            background-image: url("{{ asset('img/camara1.jpg') }}");
-            /*background-repeat: no-repeat;*/
-            background-size: auto;
+            background-image: url("{{ asset('img/frente.png') }}");
+            background-repeat: no-repeat;
             font-family: 'Montserrat';
+            background-position: center;
+            background-size: cover;
            
         }
 
@@ -82,10 +85,11 @@
             -webkit-user-select: none;
             -moz-user-select: none;
             user-select: none;
-            background-image: url("{{ asset('img/camara2.webp') }}");
-            /*background-repeat: no-repeat;*/
-            background-size: auto;
+            background-image: url("{{ asset('img/frente.png') }}");
+            background-repeat: no-repeat;
             font-family: 'Montserrat';
+            background-position: center;
+            background-size: cover;
            
         }
 
@@ -265,7 +269,7 @@
                         <li><a href="{{ route('proyectos') }}" class="nav-link px-2 link-body-emphasis text-light">TRANSPARENCIA</a></li>
                     </ul>
                     <!-- REDES SOCIALES --->
-                    <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                    <form class="col-sm-auto col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
                         <div class="btn-group" role="group" aria-label="Basic example">
                           
                             <button type="button" class="btn text-light" onclick="alert('Construccion');">
@@ -335,16 +339,18 @@
 
         <!-- FOOTER -->
       
-        <div style="background-color: #E0E0E0; width: 100%;">
+        <div style="background-color: #E0E0E0; width: 100%;" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
         <div class="container">
             <footer class="py-5" >
                 <div class="row" >
 
-                <div class="col" style=" border-right: 4px solid #19537E;">
+                <div class="col-md-3 col-lg-3" style=" border-right: 4px solid #19537E;">
                     <img src="{{asset('img/logo_footer.png')}}">
                 </div>
                 
-                <div class="col" style=" border-right: 4px solid #19537E;">
+                <div class="col-md-3 col-lg-3" style=" border-right: 4px solid #19537E;">
                   
                     <h5 style="color: #19537E;">ACCESOS DIRECTOS</h5>
                     <ul class=" flex-column"  style="color: #19537E;">  
@@ -364,7 +370,7 @@
                 
                 </div>
                 
-                <div class="col" style=" border-right: 4px solid #19537E;">
+                <div class="col-md-3 col-lg-3" style=" border-right: 4px solid #19537E;">
                 
                     <h5 style="color: #19537E;">SITIOS DE INTERÉS</h5>
                     <ul class=" flex-column"  style="color: #19537E; font-size: 11px;">  
@@ -393,7 +399,7 @@
 
                 </div>
                 
-                <div class="col">
+                <div class="col-md-3 col-lg-3">
                   
                   
                         <h5 style="color: #19537E;">NUESTRA REDES</h5>
