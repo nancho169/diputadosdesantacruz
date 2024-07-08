@@ -338,10 +338,10 @@
         
 
         <!-- FOOTER -->
-      
-        <div style="background-color: #E0E0E0; width: 100%;" data-aos="fade-down"
+      <!-- data-aos="fade-down"
         data-aos-easing="linear"
-        data-aos-duration="1500">
+        data-aos-duration="1500"-->
+        <div style="background-color: #E0E0E0; width: 100%;" >
         <div class="container">
             <footer class="py-5" >
                 <div class="row" >

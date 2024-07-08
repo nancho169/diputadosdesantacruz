@@ -193,7 +193,7 @@
     
 
     <div class="col-lg-3" >
-        <div class="card shadow-lg p-3 mb-5 text-light" style="width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
+        <div class="card shadow-lg p-3 mb-5 text-light" style="border-radius: 0px;width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
              
             <div class="card-body">
               <div class="row">
