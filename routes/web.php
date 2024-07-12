@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\InicioController;
 use App\Http\Controllers\AccesoController;
+use App\Http\Controllers\DiputadosController;
 
 /*Route::get('/', function () {
     return view('welcome');
@@ -13,6 +14,10 @@ Route::get('/',[InicioController::class,'index'])->name('inicio');
 //++++FIRMANTES
 Route::get('firmantes',[InicioController::class,'firmantes'])->name('firmantes'); 
 Route::get('ficha',[InicioController::class,'ficha'])->name('ficha'); 
+
+//++++DIPUTADOS
+Route::get('diputados',[DiputadosController::class,'index'])->name('diputados'); 
+Route::get('ficha',[DiputadosController::class,'ficha'])->name('ficha'); 
 
 
 //++++PROYECTOS
@@ -26,3 +31,4 @@ Route::get('/acceso/loginout',[AccesoController::class,'logout'])->name('logout'
 Route::POST('/acceso/login',[AccesoController::class,'acceso_login_post'])->name('acceso_login_post');
 Route::get('/acceso/registro',[AccesoController::class,'acceso_registro'])->name('acceso_registro');
 Route::post('/acceso/registro',[AccesoController::class,'acceso_registro_post'])->name('acceso_registro_post');
+

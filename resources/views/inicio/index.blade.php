@@ -121,13 +121,13 @@
     <div class="row" >
        
         <div class="col-lg-3 col-md-3 col-sm-3" >
-            
-            <div class="card shadow-lg p-3 mb-5 text-light" style="border-radius: 0px; width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
+            <a href="{{route('diputados')}}">
+            <div class="btn card shadow-lg p-3 mb-5 text-light " style="border-radius: 0px; width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
               
-                <div class="card-body">
+                <div class="card-body ">
                   
-                    <div class="row">
-                        <div class="col-2">  <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                    <div class="row " >
+                        <div class="col-2 ">  <svg xmlns="http://www.w3.org/2000/svg" width="33" height="33" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
                             <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
                           </svg>
                         </div>
@@ -139,10 +139,10 @@
                       </div>
                 </div>
             </div>
-
+            </a>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3 col-md-3" >
-          <div class="card shadow-lg p-3 mb-5 text-light" style="border-radius: 0px;width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
+          <div class="btn card shadow-lg p-3 mb-5 text-light" style="border-radius: 0px;width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
              
               <div class="card-body">
                 <div class="row">
@@ -164,7 +164,7 @@
 
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-3 col-md-3" >
-        <div class="card shadow-lg p-3 mb-5 text-light" style="border-radius: 0px;width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
+        <div class="btn card shadow-lg p-3 mb-5 text-light" style="border-radius: 0px;width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
              
             <div class="card-body">
               <div class="row">
@@ -193,7 +193,7 @@
     
 
     <div class="col-lg-3" >
-        <div class="card shadow-lg p-3 mb-5 text-light" style="border-radius: 0px;width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
+        <div class="btn card shadow-lg p-3 mb-5 text-light" style="border-radius: 0px;width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
              
             <div class="card-body">
               <div class="row">
@@ -248,7 +248,7 @@
 
     <!-- 3 columnas-->
     <div class="row" style="margin: 0 auto; margin-left: 40px;" >
-        <div class="col-md-4 col-lg-4"  style="margin: 0 auto; ">
+        <div class="btn col-md-4 col-lg-4"  style="margin: 0 auto; ">
 
             <div class="card shadow-lg bg-light" style="border-radius: 0px;width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
              
@@ -261,7 +261,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-4 col-lg-4"  style="margin: 0 auto; ">
+        <div class="btn col-md-4 col-lg-4"  style="margin: 0 auto; ">
             <div class="card  shadow-lg bg-light" style="border-radius: 0px;width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
              
                 <div class="card-body" style="text-align: center;">
@@ -273,7 +273,7 @@
                   </div>
             </div>
         </div>
-        <div class="col-md-4 col-lg-4"  style="margin: 0 auto; ">
+        <div class="btn col-md-4 col-lg-4"  style="margin: 0 auto; ">
             <div class="card shadow-lg bg-light" style="border-radius: 0px;width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
              
                 <div class="card-body" style="text-align: center;">
