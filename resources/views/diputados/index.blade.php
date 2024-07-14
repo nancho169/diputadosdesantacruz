@@ -20,7 +20,7 @@
         background: #a8d5ffc7;
         border-radius: 50%;
         box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.521);
-        margin-top: -20%;
+       
 
     }
     .silla_par1 {
@@ -58,21 +58,31 @@
 
     }
     @media (max-width: 600px) {
+        .hemiciclo {
+        position: relative;
+        width: 100%;
+        max-width: 500px;
+        height: 500px; /* Altura ajustada para semicírculo */
+        overflow: hidden;
+        margin: 0 auto;
+        
+        
+    }
         .silla {
-            width: 40px;
-            height: 40px;
+            width: 20px;
+            height: 20px;
         }
         .silla_par1 {
-            width: 40px;
-            height: 40px;
+            width: 20px;
+            height: 20px;
         }
         .silla_par2 {
-            width: 40px;
-            height: 40px;
+            width: 20px;
+            height: 20px;
         }
         .silla_par3 {
-            width: 40px;
-            height: 40px;
+            width: 20px;
+            height: 20px;
         }
     }
 </style>
@@ -82,11 +92,11 @@
     <svg class=""  width="100%" height="100%"
     xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
     focusable="false" style="z-index:50;">
-                <rect style="z-index:60;" width="100%" style="z-index:50;" height="5%" fill="var(--bs-secondary-color)"  />
-                <text style="z-index:100; font-size: 10px;" x="90%" y="3%" alignment-baseline="middle" text-anchor="end" fill="white" >CONTACTO  |  SUSCRIBITE</text>    
+                <rect style="z-index:60;" width="100%" style="z-index:50;" height="20px" fill="var(--bs-secondary-color)"  />
+                <text style="z-index:100; font-size: 10px;" x="90%" y="7%" alignment-baseline="middle" text-anchor="end" fill="white" >CONTACTO  |  SUSCRIBITE</text>    
     </svg>
     <div class="" style="width: 100%; margin:0 auto; ">
-        <br><br><br><br>
+        
         <h1 style="text-align: center;">REPRESENTANTES</h1>
     
     <br>    
@@ -112,7 +122,7 @@
                                 <div class="card" style=" border: 0px;">
                                 <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                                 <div class="card-body">
-                                <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                                <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
                                 
                                 </div>
                                 </div>
@@ -121,7 +131,7 @@
                             <div class="card" style=" border: 0px;">
                             <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                             <div class="card-body">
-                            <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                            <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
                             
                             </div>
                             </div>
@@ -130,7 +140,7 @@
                             <div class="card" style=" border: 0px;">
                             <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                             <div class="card-body">
-                            <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                            <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
                             
                             </div>
                             </div>
@@ -139,7 +149,7 @@
                             <div class="card" style="border: 0px;">
                             <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                             <div class="card-body">
-                            <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                            <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
                             
                             </div>
                             </div>
@@ -148,7 +158,7 @@
                             <div class="card" style=" border: 0px;">
                             <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                             <div class="card-body">
-                            <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                            <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b><br> Secretario General</h5>
                             
                             </div>
                             </div>
@@ -163,7 +173,7 @@
                                     <div class="card" style=" border: 0px;">
                                     <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                                     <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                                    <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
                                     
                                     </div>
                                     </div>
@@ -172,7 +182,7 @@
                                 <div class="card" style=" border: 0px;">
                                 <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                                 <div class="card-body">
-                                <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                                <h5 class="card-title" style="text-align: center;"><b>Diego Castro</b><br> Secretario General</h5>
                                 
                                 </div>
                                 </div>
@@ -181,7 +191,7 @@
                                 <div class="card" style=" border: 0px;">
                                 <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                                 <div class="card-body">
-                                <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                                <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
                                 
                                 </div>
                                 </div>
@@ -190,7 +200,7 @@
                                 <div class="card" style="border: 0px;">
                                 <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                                 <div class="card-body">
-                                <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                                <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
                                 
                                 </div>
                                 </div>
@@ -199,7 +209,7 @@
                                 <div class="card" style=" border: 0px;">
                                 <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                                 <div class="card-body">
-                                <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                                <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
                                 
                                 </div>
                                 </div>
@@ -214,7 +224,7 @@
                                     <div class="card" style=" border: 0px;">
                                     <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                                     <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                                    <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
                                     
                                     </div>
                                     </div>
@@ -223,7 +233,7 @@
                                 <div class="card" style=" border: 0px;">
                                 <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                                 <div class="card-body">
-                                <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                                <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
                                 
                                 </div>
                                 </div>
@@ -232,7 +242,7 @@
                                 <div class="card" style=" border: 0px;">
                                 <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                                 <div class="card-body">
-                                <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                                <h5 class="card-title" style="text-align: center;"><b>Diego Castro</b> <br> Secretario General</h5>
                                 
                                 </div>
                                 </div>
@@ -241,7 +251,7 @@
                                 <div class="card" style="border: 0px;">
                                 <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                                 <div class="card-body">
-                                <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                                <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
                                 
                                 </div>
                                 </div>
@@ -250,7 +260,7 @@
                                 <div class="card" style=" border: 0px;">
                                 <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                                 <div class="card-body">
-                                <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                                <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
                                 
                                 </div>
                                 </div>
@@ -290,7 +300,7 @@
                                 <div class="card" style=" border: 0px;">
                                 <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                                 <div class="card-body">
-                                <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                                <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
                                 
                                 </div>
                                 </div>
@@ -299,7 +309,7 @@
                             <div class="card" style=" border: 0px;">
                             <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                             <div class="card-body">
-                            <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                            <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
                             
                             </div>
                             </div>
@@ -308,7 +318,7 @@
                             <div class="card" style=" border: 0px;">
                             <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                             <div class="card-body">
-                            <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                            <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b><br> Secretario General</h5>
                             
                             </div>
                             </div>
@@ -317,7 +327,7 @@
                             <div class="card" style="border: 0px;">
                             <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                             <div class="card-body">
-                            <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                            <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
                             
                             </div>
                             </div>
@@ -326,7 +336,7 @@
                             <div class="card" style=" border: 0px;">
                             <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto;border: 1px solid #868686;border-radius: 50%; background-color: white;" >
                             <div class="card-body">
-                            <h5 class="card-title" style="text-align: center;"> Diego Castro <br> Secretario General</h5>
+                            <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
                             
                             </div>
                             </div>
@@ -369,11 +379,55 @@ function hemiciclo(puestos,radio,estilo){
         const radius = radio; // Radio del semicírculo en px (ajustar según el tamaño del contenedor)
 
         for (let i = 0; i < totalSillas; i++) {
+
+            
+
             const angle = Math.PI * i / (totalSillas - 1); // Ángulo en radianes
             const x = 50 + (radius * Math.cos(angle)) / hemiciclo.offsetWidth * 100;
             const y = 100 - (radius * Math.sin(angle)) / hemiciclo.offsetHeight * 100;
 
             const silla = document.createElement('div');
+
+            if("silla_par1"==estilo&&i>=2)
+                {
+                    let fondo = "#43627a";//unión por la patria
+                    silla.style.background = fondo;
+                }
+            if("silla_par1"==estilo&&i==1)
+                {
+                    let fondo = "#e95271";//coalición cívica
+                    silla.style.background = fondo;
+                }   
+                
+            if("silla_par1"==estilo&&i==0){
+                let fondo = "#2cabb1";//por santa cruz
+                silla.style.background = fondo;
+            }   
+
+
+
+            if("silla_par2"==estilo&&i<=4)
+                {
+                    let fondo = "#2cabb1";//por santa cruz
+                    silla.style.background = fondo;
+                }
+            if("silla_par2"==estilo&&i>=4)
+                {
+                    let fondo = "#43627a";
+                    silla.style.background = fondo;
+                }   
+            if("silla_par3"==estilo&&i<=5)
+                {
+                    let fondo = "#2cabb1";//por santa cruz
+                    silla.style.background = fondo;
+                }
+            if("silla_par3"==estilo&&i>=6)
+                {
+                    let fondo = "#43627a";
+                    silla.style.background = fondo;
+                }       
+                
+           
             silla.classList.add(estilo);
           
             silla.style.left = `${x}%`;
