@@ -14,6 +14,7 @@ Route::get('/',[InicioController::class,'index'])->name('inicio');
 //++++FIRMANTES
 Route::get('firmantes',[InicioController::class,'firmantes'])->name('firmantes'); 
 Route::get('ficha',[InicioController::class,'ficha'])->name('ficha'); 
+Route::get('comisiones',[InicioController::class,'comisiones'])->name('comisiones'); 
 
 //++++DIPUTADOS
 Route::get('diputados',[DiputadosController::class,'index'])->name('diputados'); 

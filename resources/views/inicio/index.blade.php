@@ -26,7 +26,7 @@
             <div class="container" >
                 <div class="carousel-caption text-start"  >
                     <a class="btn btn-lg text-light " style="background-color: #42BCBC;" href="#">Bienvenidos</a>
-                    <h1 style="border-bottom: 3px solid #42BCBC; width: 50%; text-shadow: #000000 1px 0 10px;">Honorable Cámara de <br>
+                    <h1 style="border-bottom: 3px solid #42BCBC; width: 60%; text-shadow: #000000 1px 0 10px;">Honorable Cámara de <br>
                         Diputados de Santa Cruz<br>
                         </h1>
                     
@@ -47,7 +47,7 @@
             <div class="container" >
                 <div class="carousel-caption text-start"  >
                     <a class="btn btn-lg text-light " style="background-color: #42BCBC;" href="#">Bienvenidos</a>
-                    <h1 style="border-bottom: 3px solid #42BCBC; width: 50%; text-shadow: #000000 1px 0 10px;" >Honorable Cámara de <br>
+                    <h1 style="border-bottom: 3px solid #42BCBC; width: 60%; text-shadow: #000000 1px 0 10px;" >Honorable Cámara de <br>
                         Diputados de Santa Cruz<br>
                         </h1>
                     
@@ -68,7 +68,7 @@
             <div class="container">
                 <div class="carousel-caption text-start" >
                     <a class="btn btn-lg text-light " style="background-color: #42BCBC;" href="#">Bienvenidos</a>
-                    <h1 style="border-bottom: 3px solid #42BCBC; width: 50%; text-shadow: #000000 1px 0 10px;">Honorable Cámara de <br>
+                    <h1 style="border-bottom: 3px solid #42BCBC; width: 60%; text-shadow: #000000 1px 0 10px;">Honorable Cámara de <br>
                         Diputados de Santa Cruz<br>
                         </h1>
                   
@@ -121,7 +121,7 @@
     <div class="row" >
        
         <div class="col-lg-3 col-md-3 col-sm-3" >
-            <a href="{{route('diputados')}}">
+            <a href="{{route('diputados')}}" style="text-decoration: none;">
             <div class="btn card shadow-lg p-3 mb-5 text-light " style="border-radius: 0px; width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
               
                 <div class="card-body ">
@@ -164,6 +164,7 @@
 
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-3 col-md-3" >
+        <a href="{{route('comisiones')}}" style="text-decoration: none;">
         <div class="btn card shadow-lg p-3 mb-5 text-light" style="border-radius: 0px;width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
              
             <div class="card-body">
@@ -185,6 +186,7 @@
                 </div>
             </div>
         </div>
+        </a>
 
 
     </div><!-- /.col-lg-4 -->

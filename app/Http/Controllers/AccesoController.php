@@ -114,4 +114,9 @@ class AccesoController extends Controller
         return redirect('/');
     }
         
+    public function acceso_aplicaciones(){
+
+        
+    }
+
     }

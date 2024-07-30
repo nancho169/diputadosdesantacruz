@@ -185,7 +185,10 @@
 
     <!-- DataTables CSS -->
     <link rel="stylesheet" type="text/css" href="{{asset('css/jquery.dataTables.min.css')}}">
-     
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
 </head>
 
 <body id="fondo_encabezado">
@@ -265,8 +268,8 @@
 
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 " >
                         <li><a href="{{ route('inicio') }}" class="nav-link px-2 text-light"  >INICIO</a></li>
-                        <li><a href="{{ route('firmantes') }}" class="nav-link px-2 link-body-emphasis text-light">INSTITUCIONAL</a></li>
-                        <li><a href="{{ route('proyectos') }}" class="nav-link px-2 link-body-emphasis text-light">TRANSPARENCIA</a></li>
+                        <li><a href="" class="nav-link px-2 link-body-emphasis text-light">INSTITUCIONAL</a></li>
+                        <li><a href="" class="nav-link px-2 link-body-emphasis text-light">TRANSPARENCIA</a></li>
                     </ul>
                     <!-- REDES SOCIALES --->
                     <form class="col-sm-auto col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
@@ -431,7 +434,7 @@
                   <!--  <input type="search" class="form-control" placeholder="Buscar..." aria-label="Search">-->
                 </form><BR>
                 <h5 style="color: #19537E;">CONTACTO</h5>
-                  <p style="color: #19537E;">NANCHO169@GMAIL.COM</p>
+                  <p style="color: #19537E;"><b>info@diputadosdesantacruz.gob.ar</b></p>
                 </div>
 
 

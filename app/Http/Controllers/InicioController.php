@@ -32,5 +32,9 @@ class InicioController extends Controller
         return view('proyectos.index', compact('datos'));
     }
 
+    public function comisiones(){
+        return view('comisiones.index');
+    }
+
 
 }
