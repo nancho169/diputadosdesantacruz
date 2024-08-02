@@ -28,8 +28,9 @@ class InicioController extends Controller
 
     public function proyectos()
     {
-        $datos = Proyectos::orderBy('id','desc')->get();
-        return view('proyectos.index', compact('datos'));
+        //$datos = Proyectos::orderBy('id','desc')->get();
+        //return view('proyectos.index', compact('datos'));
+        return view('proyectos.index');
     }
 
     public function comisiones(){

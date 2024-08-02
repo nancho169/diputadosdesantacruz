@@ -32,11 +32,13 @@
       }
 
       #fondo_encabezado {
-        background-color: #2BACB1;
+        background-color: #34B2B7;
+        /*2BACB1*/
         font-family: 'Montserrat';
       }
       #fondo_cuerpo{
-        background-color: #72CEC9;
+        /*72CEC9*/
+        background-color: #34B2B7;
         font-family: 'Montserrat';
         
       }
@@ -268,7 +270,19 @@
 
                     <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 " >
                         <li><a href="{{ route('inicio') }}" class="nav-link px-2 text-light"  >INICIO</a></li>
-                        <li><a href="" class="nav-link px-2 link-body-emphasis text-light">INSTITUCIONAL</a></li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link text-light dropdown-toggle" style="text-decoration: none;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            INSTITUCIONAL
+                          </a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Reglamento</a></li>
+                            <li><a class="dropdown-item" href="#">Contitución Provincial</a></li>
+                            <li><a class="dropdown-item" href="#">Contitución Nacional</a></li>
+                            <li><a class="dropdown-item" href="#">Ley 1958</a></li>
+                            
+                          </ul>
+                        </li>
+                      
                         <li><a href="" class="nav-link px-2 link-body-emphasis text-light">TRANSPARENCIA</a></li>
                     </ul>
                     <!-- REDES SOCIALES --->

@@ -106,7 +106,7 @@
     </svg>
     <div class="" style="width: 100%; margin:0 auto; margin-top:-100px;">
         
-        <h1 style="text-align: center;">REPRESENTANTES</h1>
+        <h1 style="text-align: center; color: #19537E; text-shadow: #9e9e9e 1px 0 5px;">REPRESENTANTES</h1>
     
     <br>    
         <div class="hemiciclo">

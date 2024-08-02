@@ -25,7 +25,7 @@
             </svg>
             <div class="container" >
                 <div class="carousel-caption text-start"  >
-                    <a class="btn btn-lg text-light " style="background-color: #42BCBC;" href="#">Bienvenidos</a>
+                    <a class="btn btn-lg text-light " style="background-color: #34B2B7;" href="#">Bienvenidos</a>
                     <h1 style="border-bottom: 3px solid #42BCBC; width: 60%; text-shadow: #000000 1px 0 10px;">Honorable Cámara de <br>
                         Diputados de Santa Cruz<br>
                         </h1>
@@ -46,7 +46,7 @@
             </svg>
             <div class="container" >
                 <div class="carousel-caption text-start"  >
-                    <a class="btn btn-lg text-light " style="background-color: #42BCBC;" href="#">Bienvenidos</a>
+                    <a class="btn btn-lg text-light " style="background-color: #34B2B7;" href="#">Bienvenidos</a>
                     <h1 style="border-bottom: 3px solid #42BCBC; width: 60%; text-shadow: #000000 1px 0 10px;" >Honorable Cámara de <br>
                         Diputados de Santa Cruz<br>
                         </h1>
@@ -67,7 +67,7 @@
         </svg>
             <div class="container">
                 <div class="carousel-caption text-start" >
-                    <a class="btn btn-lg text-light " style="background-color: #42BCBC;" href="#">Bienvenidos</a>
+                    <a class="btn btn-lg text-light " style="background-color: #34B2B7;" href="#">Bienvenidos</a>
                     <h1 style="border-bottom: 3px solid #42BCBC; width: 60%; text-shadow: #000000 1px 0 10px;">Honorable Cámara de <br>
                         Diputados de Santa Cruz<br>
                         </h1>
@@ -142,6 +142,7 @@
             </a>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-3 col-md-3" >
+            <a href="{{route('proyectos')}}" style="text-decoration: none;">
           <div class="btn card shadow-lg p-3 mb-5 text-light" style="border-radius: 0px;width: 16rem; background-color: rgba(0, 0, 0, .1); border: solid rgba(0, 0, 0, .15);border-width: 1px 0;" data-aos="flip-left">
              
               <div class="card-body">
@@ -161,6 +162,7 @@
                   </div>
               </div>
           </div>
+        </a>
 
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-3 col-md-3" >
@@ -350,7 +352,7 @@
                     <h4 style="text-align: left; color: #19537E; text-shadow: #9e9e9e 1px 0 5px;">DESTACADO</h4>
                     <div class="card" style="text-align: left; color:#19537E; border-style: none;">
                         <img src="{{asset('img/noticia.png')}}" class="card-img-top" alt="...">
-                        <div class="card-body" style="background-color: #72CEC9; color: white;">
+                        <div class="card-body" style="background-color: #34B2B7; color: white;">
                         <h5 class="card-title">Proyecto de ley</h5>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                         <p class="card-text"><small class="text-body-light">Last updated 3 mins ago</small></p>
