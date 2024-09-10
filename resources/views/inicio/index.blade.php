@@ -301,12 +301,34 @@
 
     <hr class="featurette-divider">
     <div class="container text-center">
-       
+
+        <div style="margin: 0 auto; z-index:5; background-color: #ffa533;"  class=" toast align-items-center fade show " role="alert" aria-live="assertive" aria-atomic="true">
+            
+            <div class="toast-body ">
+                <div class="row">
+                    <div class="col-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="#FFFFFF" class="bi bi-cone-striped" viewBox="0 0 16 16">
+                            <path d="m9.97 4.88.953 3.811C10.159 8.878 9.14 9 8 9s-2.158-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12m-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.275 3.9C6.8 3.965 7.382 4 8 4s1.2-.036 1.725-.098m4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257z"/>
+                          </svg>
+                    </div>
+                    <div class="col-11">
+                        <H5>SECCIÓN NOTICIAS EN CONSTRUCCION</H5>
+                    </div>
+                </div>
+                 
+              </div>
+            
+          
+        </div>
+
         <div class="row" >
-           
+            
+
           <div class="col-md-8 " data-aos="fade-right" data-aos-duration="3000"><!-- inicio 8 columnas-->
             <h4 style="text-align: left; color: #19537E; text-shadow: #9e9e9e 1px 0 5px;">ÚLTIMAS NOTICIAS</h4>
-            <div class="row" >
+            
+         
+            <div class="row" style="z-index:2;">
 
                 <div class="col-md-4" >
                     <div class="card" style="text-align: left; color:#19537E; border-style: none;">
@@ -327,6 +349,7 @@
                           <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                         </div>
                       </div>
+                      
                 </div>
                 <div class="col-md-4">
                     <div class="card" style="text-align: left; color:#19537E; border-style: none;">
@@ -342,6 +365,8 @@
                       </svg></a>
                 </div>
                 
+
+              
             </div>
            
           </div><!-- Fin 8 columnas-->
