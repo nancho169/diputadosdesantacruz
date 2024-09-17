@@ -263,7 +263,7 @@
                     <a href="/"
                         class="d-flex align-items-center mb-2 mb-lg-0 link-body-emphasis text-decoration-none">
                         <div class="mx-auto p-2" style="width: 200px;">
-                          <img src="{{ asset('img/logo.png') }}" class="responsive" alt="" width="120px">
+                          <img src="{{ asset('img/logo.png') }}" class="responsive" alt="" width="150px">
                         </div>
                         
                     </a>
@@ -334,7 +334,7 @@
                             </li>
                             @else
                             <li>
-                                  <img src="{{ asset('/img/transmitiendo.png')}}" class="responsive">
+                                  <img onclick="transmision()" src="{{ asset('/img/transmitiendo.png')}}" class="responsive">
                               <!--  <a  class="btn btn-secondary"   style="color: rgb(246, 247, 246)" href="{{ route('acceso_login') }}" >
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0z"/>
@@ -393,25 +393,25 @@
                     <h5 style="color: #19537E;">SITIOS DE INTERÉS</h5>
                     <ul class=" flex-column"  style="color: #19537E; font-size: 11px;">  
                       <li class="nav-item mb-2" ><a href="https://firmadigital.santacruz.gob.ar/"
-                              class="nav-link p-0 " style="color: #19537E;">AR - Firma Digital</a></li>
+                              class="nav-link p-0 " style="color: #19537E;" target="_blank">AR - Firma Digital</a></li>
                       <li class="nav-item mb-2"><a href="#"
-                              class="nav-link p-0 " style="color: #19537E;">Sistemas internos</a></li>
+                              class="nav-link p-0 " style="color: #19537E;" target="_blank">Sistemas internos</a></li>
                       <li class="nav-item mb-2"><a href="https://parlamentopatagonico.com.ar/"
-                              class="nav-link p-0 "  style="color: #19537E;">Parlamento Patagónico</a></li>
+                              class="nav-link p-0 "  style="color: #19537E;" target="_blank">Parlamento Patagónico</a></li>
                       <li class="nav-item mb-2"><a href="https://www.facebook.com/apelsantacruz1"
-                              class="nav-link p-0 " style="color: #19537E;">Sindicato del Personal y Empleados Legislativos</a></li>
+                              class="nav-link p-0 " style="color: #19537E;" target="_blank">Sindicato del Personal y Empleados Legislativos</a></li>
                       <li class="nav-item mb-2"><a href="#"
-                              class="nav-link p-0 " style="color: #19537E;">(A.P.E.L)</a></li>
+                              class="nav-link p-0 " style="color: #19537E;" target="_blank">(A.P.E.L)</a></li>
                       <li class="nav-item mb-2"><a href="https://www.parlamentomercosur.org/"
-                              class="nav-link p-0 " style="color: #19537E;">Parlamento del Mercosur</a></li>
+                              class="nav-link p-0 " style="color: #19537E;" target="_blank">Parlamento del Mercosur</a></li>
                       <li class="nav-item mb-2"><a href="https://www.boletinoficial.gob.ar/"
-                                class="nav-link p-0 " style="color: #19537E;">Boletín Oﬁcial de la República Argentina</a></li>
+                                class="nav-link p-0 " style="color: #19537E;" target="_blank">Boletín Oﬁcial de la República Argentina</a></li>
                       <li class="nav-item mb-2"><a href="https://boletinoficial.santacruz.gob.ar/"
-                                class="nav-link p-0 " style="color: #19537E;">Boletín Oﬁcial de la Provincia</a></li>                    
+                                class="nav-link p-0 " style="color: #19537E;" target="_blank">Boletín Oﬁcial de la Provincia</a></li>                    
                       <li class="nav-item mb-2"><a href="http://www.saij.gob.ar/"
-                                  class="nav-link p-0 " style="color: #19537E;">Sistema Argentino de Información Jurídica (SAIJ)</a></li> 
+                                  class="nav-link p-0 " style="color: #19537E;" target="_blank">Sistema Argentino de Información Jurídica (SAIJ)</a></li> 
                       <li class="nav-item mb-2"><a href="https://bcn.gob.ar/"
-                                    class="nav-link p-0 " style="color: #19537E;">Biblioteca del Congreso</a></li> 
+                                    class="nav-link p-0 " style="color: #19537E;" target="_blank">Biblioteca del Congreso</a></li> 
                   </ul>
                
 
@@ -505,6 +505,13 @@
     
     <script>
       AOS.init();
+    </script>
+
+    <script>
+      function transmision(){
+        window.open('https://www.youtube.com/watch?v=v3jKRgQTaR8');
+        
+      }
     </script>
 
 @stack('js')

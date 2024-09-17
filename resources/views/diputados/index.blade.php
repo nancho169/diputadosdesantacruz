@@ -140,7 +140,7 @@
     <div class="d-lg-none card" style="width: 80%; margin: 0 auto;">
         <div class="card-header"  style="background-color: #2CABB1; text-align:center; color: white;">
             
-            DIPUTADOS POR DISTRITO
+        POR SANTA CRUZ
         </div>
         <div class="card-body">
             <!-- corousel dentro de card -->
@@ -153,9 +153,9 @@
                     <div class="row">
                         <div class="col-12 ">
                             <div class="card" style=" border: 0px; width: 16rem;">
-                                <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto; background-color: white;" >
+                            <img src="{{ asset('img/diputados/upp/pedro_alejandro_valenzuela.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
                                 <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
+                                    <h5 class="card-title" style="text-align: center;"> <b>Pedro Alejandro Valenzuela </b> <br> Por Santa Cruz</h5>
                                 </div>
                             </div>
                         </div>
@@ -168,9 +168,9 @@
                   <div class="swiper-slide">
                     <div class="col-12 ">
                         <div class="card" style=" border: 0px; width: 16rem;">
-                            <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto; background-color: white;" >
+                        <img src="{{ asset('img/diputados/upp/adriana_isabel_nieto_lopez.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
                             <div class="card-body">
-                                <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
+                                <h5 class="card-title" style="text-align: center;"> <b>Adriana Isabel Nieto Lopez</b> <br> Por Santa Cruz</h5>
                             </div>
                         </div>
                     </div>
@@ -179,9 +179,9 @@
                   <div class="swiper-slide">
                     <div class="col-12 ">
                         <div class="card" style=" border: 0px; width: 16rem;">
-                            <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto; background-color: white;" >
+                        <img src="{{ asset('img/diputados/upp/cristian_eduardo_ojeda.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
                             <div class="card-body">
-                                <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
+                                <h5 class="card-title" style="text-align: center;"> <b>Cristian Eduardo Ojeda</b> <br> Por Santa Cruz</h5>
                             </div>
                         </div>
                     </div>
@@ -190,9 +190,9 @@
                   <div class="swiper-slide">
                     <div class="col-12 ">
                         <div class="card" style=" border: 0px; width: 16rem;">
-                            <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto; background-color: white;" >
+                        <img src="{{ asset('img/diputados/upp/fernando_omar_espanon.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
                             <div class="card-body">
-                                <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
+                                <h5 class="card-title" style="text-align: center;"> <b>Fernan Omar Españon</b> <br> Por Santa Cruz</h5>
                             </div>
                         </div>
                     </div>
@@ -201,9 +201,9 @@
                   <div class="swiper-slide">
                     <div class="col-12 ">
                         <div class="card" style=" border: 0px; width: 16rem;">
-                            <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto; background-color: white;" >
+                        <img src="{{ asset('img/diputados/upp/alfredo_fernando_martinez_alfaro.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
                             <div class="card-body">
-                                <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
+                                <h5 class="card-title" style="text-align: center;"> <b>Alfredo Fernando Martinez Alfaro</b> <br> Por Santa Cruz</h5>
                             </div>
                         </div>
                     </div>
@@ -212,9 +212,69 @@
                   <div class="swiper-slide">
                     <div class="col-12 ">
                         <div class="card" style=" border: 0px; width: 16rem;">
-                            <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto; background-color: white;" >
+                        <img src="{{ asset('img/diputados/upp/javier_santiago_jara.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
                             <div class="card-body">
-                                <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
+                                <h5 class="card-title" style="text-align: center;"> <b>Javier Santiago Jara</b> <br> Por Santa Cruz</h5>
+                            </div>
+                        </div>
+                    </div>
+                 
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="col-12 ">
+                        <div class="card" style=" border: 0px; width: 16rem;">
+                        <img src="{{ asset('img/diputados/upp/fernando_oscar_perez.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align: center;"> <b>Fernan Oscar Perez</b> <br> Por Santa Cruz</h5>
+                            </div>
+                        </div>
+                    </div>
+                 
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="col-12 ">
+                        <div class="card" style=" border: 0px; width: 16rem;">
+                        <img src="{{ asset('img/diputados/upp/mario_piero_boffi.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align: center;"> <b>Mario Piero Boffi</b> <br> Por Santa Cruz</h5>
+                            </div>
+                        </div>
+                    </div>
+                 
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="col-12 ">
+                        <div class="card" style=" border: 0px; width: 16rem;">
+                        <img src="{{ asset('img/diputados/upp/fabiola_carolina_loreiro.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align: center;"> <b>Fabiola Carolina Loreiro</b> <br> Por Santa Cruz</h5>
+                            </div>
+                        </div>
+                    </div>
+                 
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="col-12 ">
+                        <div class="card" style=" border: 0px; width: 16rem;">
+                        <img src="{{ asset('img/diputados/upp/santiago_aberastain_zubimendi.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align: center;"> <b>Santiago Aberastain Zubimendi</b> <br> Por Santa Cruz</h5>
+                            </div>
+                        </div>
+                    </div>
+                 
+                  </div>
+
+
+                  <div class="swiper-slide">
+                    <div class="col-12 ">
+                        <div class="card" style=" border: 0px; width: 16rem;">
+                        <img src="{{ asset('img/diputados/upp/claudia_fabiana_barrientos.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
+                            <div class="card-body">
+                                <h5 class="card-title" style="text-align: center;"> <b>Claudia Fabiana Barrientos</b> <br> Por Santa Cruz</h5>
                             </div>
                         </div>
                     </div>
@@ -240,12 +300,12 @@
       
     </div>
       
-      <!-- FIN DIPUTADOS POR DISTRITO-->
+      <!-- FIN DIPUTADOS POR SANTA CRUZ LG-->
       <!-- DIPUTADOS POR DISTRITO SE MUESTRA CUANDO LA PANTALLA ES LG-->
     <div class="d-none d-lg-block card" style="width: 80%; margin: 0 auto;">
         <div class="card-header"  style="background-color: #2CABB1; text-align:center; color: white;">
             
-            BLOQUE UNIÓN POR LA PATRIA
+            POR SANTA CRUZ
         </div>
         <div class="card-body">
             <!-- corousel dentro de card -->
@@ -282,7 +342,7 @@
                         </div>
                         <div class="col-3">
                             <div class="card" style=" border: 0px; width: 12rem;">
-                                <img src="{{ asset('img/diputados/upp/fernando_omar_españon.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
+                                <img src="{{ asset('img/diputados/upp/fernando_omar_espanon.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
                                 <div class="card-body">
                                     <h5 class="card-title" style="text-align: center;"> <b>Fernando Omar Españon</b> <br> Por Santa Cruz</h5>
                                 </div>
@@ -392,7 +452,7 @@
    <div class="d-lg-none card" style="width: 80%; margin: 0 auto;">
     <div class="card-header"  style="background-color: #19537E; text-align:center; color: white;">
         
-        BLOQUE POR SANTA CRUZ
+        UNIÓN POR LA PATRIA
     </div>
     <div class="card-body">
         <!-- corousel dentro de card -->
@@ -405,9 +465,9 @@
                 <div class="row">
                     <div class="col-12 ">
                         <div class="card" style=" border: 0px; width: 16rem;">
-                            <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto; background-color: white;" >
+                        <img src="{{ asset('img/diputados/upp/elba_lorena_ponce.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
                             <div class="card-body">
-                                <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
+                                <h5 class="card-title" style="text-align: center;"> <b>Elba Lorena Ponce</b> <br> Elba Lorena Ponce</h5>
                             </div>
                         </div>
                     </div>
@@ -420,9 +480,9 @@
               <div class="swiper-slide">
                 <div class="col-12 ">
                     <div class="card" style=" border: 0px; width: 16rem;">
-                        <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto; background-color: white;" >
+                    <img src="{{ asset('img/diputados/upp/carlos_godoy_alberto.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
                         <div class="card-body">
-                            <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
+                        <h5 class="card-title" style="text-align: center;"> <b>Carlos Alberto Godoy</b> <br> Unión por la patria</h5>
                         </div>
                     </div>
                 </div>
@@ -432,9 +492,9 @@
               <div class="swiper-slide">
                 <div class="col-12 ">
                     <div class="card" style=" border: 0px; width: 16rem;">
-                        <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto; background-color: white;" >
+                    <img src="{{ asset('img/diputados/upp/maria_rocio_garcia.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
                         <div class="card-body">
-                            <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
+                        <h5 class="card-title" style="text-align: center;"> <b>Maria Rocio Garcia</b> <br> Unión por la patria</h5>
                         </div>
                     </div>
                 </div>
@@ -443,9 +503,9 @@
               <div class="swiper-slide">
                 <div class="col-12 ">
                     <div class="card" style=" border: 0px; width: 16rem;">
-                        <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto; background-color: white;" >
+                    <img src="{{ asset('img/diputados/upp/jose_ramon_bodlovic.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
                         <div class="card-body">
-                            <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
+                        <h5 class="card-title" style="text-align: center;"> <b>Jose Ramon Bodlovic</b> <br> Unión por la patria</h5>
                         </div>
                     </div>
                 </div>
@@ -454,9 +514,9 @@
               <div class="swiper-slide">
                 <div class="col-12 ">
                     <div class="card" style=" border: 0px; width: 16rem;">
-                        <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto; background-color: white;" >
+                    <img src="{{ asset('img/diputados/upp/luis_carlos_daniel_alegria.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
                         <div class="card-body">
-                            <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
+                        <h5 class="card-title" style="text-align: center;"> <b>Luis Carlos Daniel Alegria</b> <br> Unión por la patria</h5>
                         </div>
                     </div>
                 </div>
@@ -465,15 +525,104 @@
               <div class="swiper-slide">
                 <div class="col-12 ">
                     <div class="card" style=" border: 0px; width: 16rem;">
-                        <img src="{{ asset('img/firmantes/dipu.png') }}" width="50%"  style="margin: 0 auto; background-color: white;" >
+                    <img src="{{ asset('img/diputados/upp/daniel_roman_peralta.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
                         <div class="card-body">
-                            <h5 class="card-title" style="text-align: center;"> <b>Diego Castro</b> <br> Secretario General</h5>
+                        <h5 class="card-title" style="text-align: center;"> <b>Daniel Roman Peralta</b> <br> Unión por la patria</h5>
                         </div>
                     </div>
                 </div>
              
               </div>
-              
+              <div class="swiper-slide">
+                <div class="col-12 ">
+                    <div class="card" style=" border: 0px; width: 16rem;">
+                    <img src="{{ asset('img/diputados/upp/maria_agostina_mora_doldan.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
+                        <div class="card-body">
+                        <h5 class="card-title" style="text-align: center;"> <b>Maria Agostina Mora Doldan</b> <br> Unión por la patria</h5>
+                        </div>
+                    </div>
+                </div>
+             
+              </div>
+
+              <div class="swiper-slide">
+                <div class="col-12 ">
+                    <div class="card" style=" border: 0px; width: 16rem;">
+                    <img src="{{ asset('img/diputados/upp/karina_alejandra_nieto.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
+                        <div class="card-body">
+                        <h5 class="card-title" style="text-align: center;"> <b>Karina Aljandra Nieto</b> <br> Unión por la patria</h5>
+                        </div>
+                    </div>
+                </div>
+             
+              </div>
+
+              <div class="swiper-slide">
+                <div class="col-12 ">
+                    <div class="card" style=" border: 0px; width: 16rem;">
+                    <img src="{{ asset('img/diputados/upp/eloy_dante_echazu.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
+                        <div class="card-body">
+                        <h5 class="card-title" style="text-align: center;"> <b>Eloy Dante Echazu</b> <br> Unión por la patria</h5>
+                        </div>
+                    </div>
+                </div>
+             
+              </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+      
+          <!-- Fin carousel interno-->
+        
+         
+    </div>
+  
+</div>
+
+<!-- DIPUTADOS POR PUEBLO SE OCULTA CUANDO LA PANTALLA ES LG-->
+<div class="d-lg-none card" style="width: 80%; margin: 0 auto;">
+    <div class="card-header"  style="background-color: rgb(233, 82, 113); text-align:center; color: white;">
+        
+    COALICIÓN CÍVICA ARI
+    </div>
+    <div class="card-body">
+        <!-- corousel dentro de card -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper" >
+              <!-- Slides -->
+              <div class="swiper-slide " >
+                <div class="overflow-auto">
+                <div class="row">
+                    <div class="col-12 ">
+                        <div class="card" style=" border: 0px; width: 16rem;">
+                        <img src="{{ asset('img/diputados/upp/segundo_pedro_munoz.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
+                            <div class="card-body">
+                            <h5 class="card-title" style="text-align: center;"> <b>Segundo Pedro Muñoz</b> <br> ARI</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+              </div>
+              </div>
+             
+           
+            
+            
+     
+
+            
+
+             
             </div>
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -493,13 +642,14 @@
   
 </div>
   
+  
        <!-- FIN DIPUTADOS POR PREBLO-->
        <!-- DIPUTADOS POR EL PUEBLO-->
        <!-- DIPUTADOS POR PUEBLO SE MUESTRA CUANDO LA PANTALLA ES LG-->
        <div class="d-none d-lg-block card" style="width: 80%; margin: 0 auto;">
         <div class="card-header"  style="background-color: #19537E; text-align:center; color: white;">
             
-            DIPUTADOS POR EL PUEBLO
+            UNIÓN POR LA PATRIA
         </div>
         <div class="card-body">
             <!-- corousel dentro de card -->
@@ -514,7 +664,7 @@
                             <div class="card" style=" border: 0px; width: 12rem;">
                                 <img src="{{ asset('img/diputados/upp/elba_lorena_ponce.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
                                 <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center;"> <b>Elba Lorena Ponce</b> <br> Unión por la patria</h5>
+                                    <h5 class="card-title" style="text-align: center;"> <b>Elba Lorena Ponce</b> <br> Elba Lorena Ponce</h5>
                                 </div>
                             </div>
                         </div>
@@ -551,7 +701,7 @@
                             <div class="card" style=" border: 0px; width: 12rem;">
                                 <img src="{{ asset('img/diputados/upp/luis_carlos_daniel_alegria.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
                                 <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center;"> <b>Luis Calros Daniel Alegria</b> <br> Unión por la patria</h5>
+                                    <h5 class="card-title" style="text-align: center;"> <b>Luis Carlos Daniel Alegria</b> <br> Unión por la patria</h5>
                                 </div>
                             </div>
                         </div>
@@ -640,9 +790,9 @@
                     <div class="row">
                         <div class="col-3">
                             <div class="card" style=" border: 0px; width: 12rem;">
-                                <img src="{{ asset('img/diputados/upp/segundo_pedro_muñoz.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
+                                <img src="{{ asset('img/diputados/upp/segundo_pedro_munoz.png') }}" width="100%"  style="margin: 0 auto; background-color: white;" >
                                 <div class="card-body">
-                                    <h5 class="card-title" style="text-align: center;"> <b>Pedro Alejandro Valenzuela</b> <br> ARI</h5>
+                                    <h5 class="card-title" style="text-align: center;"> <b>Segundo Pedro Muñoz</b> <br> ARI</h5>
                                 </div>
                             </div>
                         </div>
@@ -829,5 +979,3 @@ function hemiciclo(puestos,radio,estilo){
          
   </script>
 @endsection
-
-

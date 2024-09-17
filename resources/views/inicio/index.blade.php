@@ -11,17 +11,23 @@
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
+    
     <div class="carousel-inner">
+      
+        
         <div class="carousel-item active" >
+            
             <svg class="bd-placeholder-img-head"  width="100%" height="100%"
                 xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
                 focusable="false" style="z-index:50;">
                 
+                <rect style="z-index:60; background-color:rgba(0, 0, 0, 0.5);" width="100%" style="z-index:50;" height="5%" fill="var(--bs-secondary-color)"  />
+                <marquee style="z-index:80;  opacity: 1; font-color: white; font-size: 12px; ">ASSS</marquee>
                 
-  
-                <rect style="z-index:60;" width="100%" style="z-index:50;" height="5%" fill="var(--bs-secondary-color)"  />
-                <text style="z-index:100; font-size: 10px;" x="90%" y="3%" alignment-baseline="middle" text-anchor="end" fill="white" >CONTACTO  |  SUSCRIBITE</text>    
+                <!--<rect style="z-index:60;" width="100%" style="z-index:50;" height="5%" fill="var(--bs-secondary-color)"  />-->
                 
+                <!--<marquee><text style="z-index:100; font-size: 10px;" x="90%" y="3%" alignment-baseline="middle" text-anchor="end" fill="white" > 10° REUNIÓN ORDINARIA DE COMISIONES | LEGISLACIÓN GENERAL </text> </marquee>-->
+              
             </svg>
             <div class="container" >
                 <div class="carousel-caption text-start"  >
@@ -33,7 +39,7 @@
                 </div>
             </div>
         </div>
-        <div class="carousel-item">
+        <!--<div class="carousel-item">
             <svg class="bd-placeholder-img-head-1"  width="100%" height="100%"
                 xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice"
                 focusable="false" style="z-index:50;">
@@ -74,7 +80,7 @@
                   
                 </div>
             </div>
-        </div>
+        </div>-->
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -324,7 +330,7 @@
         <div class="row" >
             
 
-          <div class="col-md-8 " data-aos="fade-right" data-aos-duration="3000"><!-- inicio 8 columnas-->
+          <div class="col-md-8 " ><!-- inicio 8 columnas-->
             <h4 style="text-align: left; color: #19537E; text-shadow: #9e9e9e 1px 0 5px;">ÚLTIMAS NOTICIAS</h4>
             
          
@@ -371,7 +377,7 @@
            
           </div><!-- Fin 8 columnas-->
           
-          <div class="col-md-4 col-sm-4 col-lg-4" data-aos="fade-left" data-aos-duration="7000"><!-- col destacado-->
+          <div class="col-md-4 col-sm-4 col-lg-4" ><!-- col destacado-->
             <div class="row" >
                 <div class="col-md-10 col-sm-10 col-lg-10">
                     <h4 style="text-align: left; color: #19537E; text-shadow: #9e9e9e 1px 0 5px;">DESTACADO</h4>
